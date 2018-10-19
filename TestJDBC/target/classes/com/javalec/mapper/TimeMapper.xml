@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!-- TimeMapper 인터페이스 -->
+<mapper namespace="com.javalec.mapper.TimeMapper"> 
+	<select id="getTime2" resultType="string">
+		SELECT sysdate From dual
+	</select>
+</mapper>
